@@ -1,0 +1,14 @@
+{
+  "name": "speed-check-cli",
+  "version": "1.0.0",
+  "description": "CLI/TUI-утилита на TypeScript для замера скорости скачивания",
+  "type": "module",
+  "main": "index.ts",
+  "engines": {
+    "node": ">=22.6.0"
+  },
+  "scripts": {
+    "start": "node --experimental-strip-types index.ts"
+  },
+  "license": "MIT"
+}
